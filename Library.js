@@ -27,7 +27,8 @@ class Library{
 
     for(libY=240;libY<760;libY+=80){
     for(libX=170;libX<1030;libX+=500){
-        createInput("");
+       this.inp=createInput("");
+        this.inp.position(libX,libY);
     }
     }
 
